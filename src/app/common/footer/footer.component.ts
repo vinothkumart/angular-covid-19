@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
   year = new Date().getFullYear();
   author = {
-    name: 'Ashish Kumar',
-    url: 'https://lab.kumarashish.com/'
+    name: 'Vinoth Kumar',
+    url: '#'
   };
 
   constructor() { }
