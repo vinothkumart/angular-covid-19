@@ -1,20 +1,20 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ConfigService {
   config: any = {
-    gaKey: 'G-CCR7FYV6T5',
+    gaKey: 'UA-164168746-1',
     newsApiKey: '7fd8e67e17f745b48a0febc3c323cc36',
     newsApiUrl: 'https://newsapi.org/v2/top-headlines',
     summaryApiUrl: 'https://corona.lmao.ninja/v2/all',
     countriesApiUrl: 'https://corona.lmao.ninja/v2/countries/',
     historicalApiUrl: 'https://corona.lmao.ninja/v2/historical/',
-    locationApiUrl: 'https://extreme-ip-lookup.com/json/'
+    locationApiUrl: 'https://extreme-ip-lookup.com/json/',
   };
 
-  constructor() { }
+  constructor() {}
 
   /**
    * @method
